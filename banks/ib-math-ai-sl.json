@@ -1,0 +1,1352 @@
+{
+  "id": "ib-math-ai-sl",
+  "title": "IB Math AI SL",
+  "subtitle": "Number, functions, geometry, stats, calculus",
+  "questions": [
+    {
+      "type": "num",
+      "q": "Write 0.004567 correct to 2 significant figures.",
+      "answer": 0.0046,
+      "tol": 1e-09,
+      "display": "0.0046",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "mc",
+      "q": "Calculate (3.2 × 10⁴) × (5 × 10³). Give the answer in standard form.",
+      "choices": [
+        "1.6 × 10⁸",
+        "1.6 × 10⁹",
+        "1.6 × 10⁷",
+        "8.2 × 10⁷"
+      ],
+      "answer": 0,
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "0.000352 = a × 10ᵏ in standard form (1 ≤ a < 10). Find k.",
+      "answer": -4,
+      "tol": 0,
+      "display": "-4",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "A length is 12 cm, measured to the nearest cm. Write down its upper bound.",
+      "answer": 12.5,
+      "tol": 0,
+      "display": "12.5",
+      "unit": "cm",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "Arithmetic sequence: u₁ = 7, d = 4. Find u₂₀.",
+      "answer": 83,
+      "tol": 0,
+      "display": "83",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "Arithmetic sequence: u₁ = 3, d = 5. Find S₁₀ (sum of the first 10 terms).",
+      "answer": 255.0,
+      "tol": 0,
+      "display": "255",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "Arithmetic sequence: u₁ = 50, u₅ = 30. Find the common difference d.",
+      "answer": -5.0,
+      "tol": 0,
+      "display": "-5",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "Geometric sequence: u₁ = 2, r = 3. Find u₆.",
+      "answer": 486,
+      "tol": 0,
+      "display": "486",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "Geometric sequence: u₁ = 5, r = 2. Find S₈.",
+      "answer": 1275.0,
+      "tol": 0,
+      "display": "1275",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "$1000 is invested at 4% per year, compounded annually. Find the value after 5 years, to the nearest cent.",
+      "answer": 1216.652902,
+      "tol": 0.006,
+      "display": "1216.65",
+      "unit": "$",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "A car worth $20 000 depreciates by 15% per year. Find its value after 2 years.",
+      "answer": 14450.0,
+      "tol": 0.5,
+      "display": "14450",
+      "unit": "$",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "Estimate = 50, exact value = 48. Find the percentage error.",
+      "answer": 4.166667,
+      "tol": 0.004333333333333854,
+      "display": "4.17",
+      "unit": "%",
+      "hint": "3 s.f.",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "Find log₁₀(1000).",
+      "answer": 3.0,
+      "tol": 0,
+      "display": "3",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "A population is modelled by N = 200(1.05)ᵗ. Find N when t = 3, to the nearest whole number.",
+      "answer": 231.525,
+      "tol": 0.5,
+      "display": "232",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "Find the gradient of the line through (1, 2) and (5, 10).",
+      "answer": 2.0,
+      "tol": 0,
+      "display": "2",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "Find the y-intercept of the line 3x + 2y = 12.",
+      "answer": 6.0,
+      "tol": 0,
+      "display": "6",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "Find the x-intercept of y = 2x − 3.",
+      "answer": 1.5,
+      "tol": 0,
+      "display": "1.5",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "A taxi costs C = 15 + 2.5k dollars for k km. Find the cost of a 6 km trip.",
+      "answer": 30.0,
+      "tol": 0,
+      "display": "30",
+      "unit": "$",
+      "topic": "Functions"
+    },
+    {
+      "type": "mc",
+      "q": "Line L has gradient 2. What is the gradient of a line perpendicular to L?",
+      "choices": [
+        "−1/2",
+        "1/2",
+        "−2",
+        "2"
+      ],
+      "answer": 0,
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "A right triangle has legs 9 and 12. Find the hypotenuse.",
+      "answer": 15.0,
+      "tol": 0,
+      "display": "15",
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "num",
+      "q": "Right triangle: opposite = 5, hypotenuse = 13. Find the angle θ in degrees.",
+      "answer": 22.619865,
+      "tol": 0.02986494804042849,
+      "display": "22.6",
+      "unit": "°",
+      "hint": "3 s.f.",
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "num",
+      "q": "Triangle ABC: a = 8, A = 40°, B = 65°. Use the sine rule to find b.",
+      "answer": 11.279717,
+      "tol": 0.030283049903611074,
+      "display": "11.3",
+      "hint": "3 s.f.",
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "num",
+      "q": "Two sides are 7 and 10 with an included angle of 60°. Find the third side.",
+      "answer": 8.888194,
+      "tol": 0.0028055826844118883,
+      "display": "8.89",
+      "hint": "3 s.f.",
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "num",
+      "q": "Find the area of a triangle with sides 6 and 8 and included angle 30°.",
+      "answer": 12.0,
+      "tol": 1e-06,
+      "display": "12",
+      "unit": "units²",
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "num",
+      "q": "Find the volume of a cylinder with radius 3 cm and height 10 cm.",
+      "answer": 282.743339,
+      "tol": 0.35666117691861243,
+      "display": "283",
+      "unit": "cm³",
+      "hint": "3 s.f.",
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "num",
+      "q": "Find the arc length of a sector with radius 5 cm and angle 72°.",
+      "answer": 6.283185,
+      "tol": 0.004185307179585983,
+      "display": "6.28",
+      "unit": "cm",
+      "hint": "3 s.f.",
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "num",
+      "q": "Find the distance between (1, 2, 3) and (4, 6, 15).",
+      "answer": 13.0,
+      "tol": 0,
+      "display": "13",
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "num",
+      "q": "The midpoint of (2, −4) and (8, 10) is (5, k). Find k.",
+      "answer": 3.0,
+      "tol": 0,
+      "display": "3",
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "mc",
+      "q": "In a Voronoi diagram, each edge lies on the ___ of two sites.",
+      "choices": [
+        "perpendicular bisector",
+        "angle bisector",
+        "median",
+        "tangent"
+      ],
+      "answer": 0,
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "num",
+      "q": "Find the mean of 4, 7, 7, 9, 13.",
+      "answer": 8.0,
+      "tol": 0,
+      "display": "8",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "Find the median of 3, 8, 1, 9, 4, 7.",
+      "answer": 5.5,
+      "tol": 0,
+      "display": "5.5",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "Q₁ = 12 and Q₃ = 20. Find the upper boundary for outliers (Q₃ + 1.5 × IQR).",
+      "answer": 32.0,
+      "tol": 0,
+      "display": "32",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "A and B are independent. P(A) = 0.3, P(B) = 0.5. Find P(A ∩ B).",
+      "answer": 0.15,
+      "tol": 1e-09,
+      "display": "0.15",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "P(A) = 0.4, P(B) = 0.5, P(A ∩ B) = 0.2. Find P(A ∪ B).",
+      "answer": 0.7,
+      "tol": 1e-09,
+      "display": "0.7",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "P(A ∩ B) = 0.2 and P(B) = 0.5. Find P(A | B).",
+      "answer": 0.4,
+      "tol": 1e-09,
+      "display": "0.4",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "X takes values 1, 2, 3 with probabilities 0.2, 0.5, 0.3. Find E(X).",
+      "answer": 2.1,
+      "tol": 1e-09,
+      "display": "2.1",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "X ~ B(10, 0.5). Find E(X).",
+      "answer": 5.0,
+      "tol": 0,
+      "display": "5",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "X ~ N(50, 10²). Find P(X < 50).",
+      "answer": 0.5,
+      "tol": 0,
+      "display": "0.5",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "mc",
+      "q": "Two fair dice are rolled. P(sum = 7) = ?",
+      "choices": [
+        "1/6",
+        "1/12",
+        "7/36",
+        "1/7"
+      ],
+      "answer": 0,
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "mc",
+      "q": "For a normal distribution, about what percentage of data lies within 1 standard deviation of the mean?",
+      "choices": [
+        "68%",
+        "50%",
+        "95%",
+        "99.7%"
+      ],
+      "answer": 0,
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "mc",
+      "q": "Pearson's r = −0.92. This shows…",
+      "choices": [
+        "strong negative linear correlation",
+        "weak negative correlation",
+        "no correlation",
+        "strong positive correlation"
+      ],
+      "answer": 0,
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "χ² test of independence on a 3 × 4 contingency table. How many degrees of freedom?",
+      "answer": 6,
+      "tol": 0,
+      "display": "6",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "mc",
+      "q": "A test gives p-value = 0.03 at the 5% significance level. Conclusion?",
+      "choices": [
+        "Reject H₀",
+        "Do not reject H₀",
+        "Accept H₀ as proven",
+        "Not enough information"
+      ],
+      "answer": 0,
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "mc",
+      "q": "Which measures how well two variables follow a monotonic (always increasing or decreasing) relationship?",
+      "choices": [
+        "Spearman's rank correlation",
+        "Pearson's r",
+        "Standard deviation",
+        "Interquartile range"
+      ],
+      "answer": 0,
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = 3x² − 5x + 2. Find f′(2).",
+      "answer": 7,
+      "tol": 0,
+      "display": "7",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "Find the gradient of y = 4x² at x = −1.",
+      "answer": -8,
+      "tol": 0,
+      "display": "-8",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = x³ − 12x has stationary points at x = ±a. Find a (a > 0).",
+      "answer": 2,
+      "tol": 0,
+      "display": "2",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "Use the trapezoidal rule with 2 trapezoids (h = 1) to estimate ∫₀² x² dx.",
+      "answer": 3.0,
+      "tol": 0,
+      "display": "3",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "Find ∫₀³ 2x dx.",
+      "answer": 9,
+      "tol": 0,
+      "display": "9",
+      "topic": "Calculus"
+    },
+    {
+      "type": "mc",
+      "q": "f′(x) > 0 on an interval means f is…",
+      "choices": [
+        "increasing",
+        "decreasing",
+        "constant",
+        "at a maximum"
+      ],
+      "answer": 0,
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "72 300 = a × 10ᵏ in standard form (1 ≤ a < 10). Find k.",
+      "answer": 4,
+      "tol": 0,
+      "display": "4",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "Arithmetic sequence 5, 9, 13, … Find u₁₂.",
+      "answer": 49,
+      "tol": 0,
+      "display": "49",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "Geometric sequence 3, 6, 12, … Find S₁₀.",
+      "answer": 3069,
+      "tol": 0,
+      "display": "3069",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "$5000 is invested at 3% per year, compounded monthly. Find the value after 4 years, to the nearest cent.",
+      "answer": 5636.640105,
+      "tol": 0.006105199655081378,
+      "display": "5636.64",
+      "unit": "$",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "Solve 2ˣ = 50.",
+      "answer": 5.643856,
+      "tol": 0.004856189774724683,
+      "display": "5.64",
+      "hint": "3 s.f.",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "mc",
+      "q": "Calculate (2 × 10³) ÷ (4 × 10⁻²). Give the answer in standard form.",
+      "choices": [
+        "5 × 10⁴",
+        "5 × 10⁵",
+        "5 × 10¹",
+        "8 × 10⁵"
+      ],
+      "answer": 0,
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "A $12 000 loan at 6% per year (compounded monthly) is repaid monthly over 5 years. Find the monthly payment.",
+      "answer": 231.993618,
+      "tol": 0.009618353139273722,
+      "display": "231.99",
+      "unit": "$",
+      "topic": "Number & algebra"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = 3x − 7. Find f(5).",
+      "answer": 8,
+      "tol": 0,
+      "display": "8",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = 2x + 1. Find f⁻¹(9).",
+      "answer": 4,
+      "tol": 0,
+      "display": "4",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "Write down the gradient of y = −4x + 9.",
+      "answer": -4,
+      "tol": 0,
+      "display": "-4",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "y = 3x + 2 and y = x + 6 intersect at (a, b). Find a.",
+      "answer": 2,
+      "tol": 0,
+      "display": "2",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = x² − 6x + 5. Find the x-coordinate of the vertex.",
+      "answer": 3,
+      "tol": 0,
+      "display": "3",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = x² − 6x + 5. Find the smaller zero of f.",
+      "answer": 1,
+      "tol": 0,
+      "display": "1",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = −2x² + 8x + 1. Find the maximum value of f.",
+      "answer": 9,
+      "tol": 0,
+      "display": "9",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "The axis of symmetry of y = 2x² + 12x − 3 is x = k. Find k.",
+      "answer": -3,
+      "tol": 0,
+      "display": "-3",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = 5(0.8)ˣ. Find f(3).",
+      "answer": 2.56,
+      "tol": 1e-09,
+      "display": "2.56",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "Write down the horizontal asymptote of y = 4 + 3(2)⁻ˣ, as y = k. Find k.",
+      "answer": 4,
+      "tol": 0,
+      "display": "4",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "V = 2000(1.06)ᵗ. Find t when V = 3000.",
+      "answer": 6.958516,
+      "tol": 0.0024843668345960737,
+      "display": "6.96",
+      "hint": "3 s.f.",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "y varies directly with x, and y = 12 when x = 3. Find y when x = 10.",
+      "answer": 40,
+      "tol": 0,
+      "display": "40",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "y is inversely proportional to x, and y = 6 when x = 4. Find y when x = 8.",
+      "answer": 3,
+      "tol": 0,
+      "display": "3",
+      "topic": "Functions"
+    },
+    {
+      "type": "mc",
+      "q": "What is the range of f(x) = x² + 3, for all real x?",
+      "choices": [
+        "y ≥ 3",
+        "y > 3",
+        "y ≥ 0",
+        "all real numbers"
+      ],
+      "answer": 0,
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = 3 sin(2x) + 1. Write down the amplitude.",
+      "answer": 3,
+      "tol": 0,
+      "display": "3",
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = 3 sin(2x) + 1, x in degrees. Find the period, in degrees.",
+      "answer": 180,
+      "tol": 0,
+      "display": "180",
+      "topic": "Functions",
+      "unit": "°"
+    },
+    {
+      "type": "mc",
+      "q": "A quantity doubles every 5 years. Which model fits best?",
+      "choices": [
+        "Exponential",
+        "Linear",
+        "Quadratic",
+        "Sinusoidal"
+      ],
+      "answer": 0,
+      "topic": "Functions"
+    },
+    {
+      "type": "num",
+      "q": "Find the volume of a sphere with radius 6 cm.",
+      "answer": 904.778684,
+      "tol": 0.32131576613969626,
+      "display": "905",
+      "hint": "3 s.f.",
+      "topic": "Geometry & trigonometry",
+      "unit": "cm³"
+    },
+    {
+      "type": "num",
+      "q": "Find the surface area of a sphere with radius 5 cm.",
+      "answer": 314.159265,
+      "tol": 0.2592653589793258,
+      "display": "314",
+      "hint": "3 s.f.",
+      "topic": "Geometry & trigonometry",
+      "unit": "cm²"
+    },
+    {
+      "type": "num",
+      "q": "Find the volume of a cone with radius 4 cm and height 9 cm.",
+      "answer": 150.796447,
+      "tol": 0.3035526276899304,
+      "display": "151",
+      "hint": "3 s.f.",
+      "topic": "Geometry & trigonometry",
+      "unit": "cm³"
+    },
+    {
+      "type": "num",
+      "q": "Find the volume of a square-based pyramid with base side 6 m and height 10 m.",
+      "answer": 120.0,
+      "tol": 0,
+      "display": "120",
+      "topic": "Geometry & trigonometry",
+      "unit": "m³"
+    },
+    {
+      "type": "num",
+      "q": "From 50 m away, the angle of elevation to the top of a tower is 32°. Find the tower's height.",
+      "answer": 31.243468,
+      "tol": 0.05346759546637458,
+      "display": "31.2",
+      "hint": "3 s.f.",
+      "topic": "Geometry & trigonometry",
+      "unit": "m"
+    },
+    {
+      "type": "num",
+      "q": "Right triangle: the side adjacent to a 40° angle is 8. Find the hypotenuse.",
+      "answer": 10.443258,
+      "tol": 0.05325831465822816,
+      "display": "10.4",
+      "hint": "3 s.f.",
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "num",
+      "q": "A triangle has sides 7, 8 and 10. Find the largest angle, in degrees.",
+      "answer": 83.334573,
+      "tol": 0.04457274378055786,
+      "display": "83.3",
+      "hint": "3 s.f.",
+      "topic": "Geometry & trigonometry",
+      "unit": "°"
+    },
+    {
+      "type": "num",
+      "q": "Find the area of a sector with radius 6 cm and angle 120°.",
+      "answer": 37.699112,
+      "tol": 0.010888156922485452,
+      "display": "37.7",
+      "hint": "3 s.f.",
+      "topic": "Geometry & trigonometry",
+      "unit": "cm²"
+    },
+    {
+      "type": "num",
+      "q": "Find the gradient of the perpendicular bisector of A(1, 3) and B(5, 11).",
+      "answer": -0.5,
+      "tol": 1e-09,
+      "display": "-0.5",
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "num",
+      "q": "A ship sails 8 km north, then 6 km east. How far is it from its start?",
+      "answer": 10,
+      "tol": 0,
+      "display": "10",
+      "topic": "Geometry & trigonometry",
+      "unit": "km"
+    },
+    {
+      "type": "mc",
+      "q": "A bearing of 090° points…",
+      "choices": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "answer": 0,
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "num",
+      "q": "The midpoint of (−2, 7) and (6, −1) is (a, b). Find a.",
+      "answer": 2,
+      "tol": 0,
+      "display": "2",
+      "topic": "Geometry & trigonometry"
+    },
+    {
+      "type": "num",
+      "q": "Find the range of 12, 5, 19, 8, 15.",
+      "answer": 14,
+      "tol": 0,
+      "display": "14",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "Data: 2, 4, 4, 5, 7, 9. Find the standard deviation (as your GDC gives σx).",
+      "answer": 2.266912,
+      "tol": 0.004088248544092842,
+      "display": "2.27",
+      "hint": "3 s.f.",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "P(rain) = 0.35. Find P(no rain).",
+      "answer": 0.65,
+      "tol": 1e-09,
+      "display": "0.65",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "X ~ B(8, 0.3). Find P(X = 2).",
+      "answer": 0.296475,
+      "tol": 0.0005754799999999171,
+      "display": "0.296",
+      "hint": "3 s.f.",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "The regression line is y = 2.5x + 4. Estimate y when x = 6.",
+      "answer": 19,
+      "tol": 0,
+      "display": "19",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "In a χ² goodness-of-fit test, 200 people are surveyed and the expected proportion for A is 0.3. Find the expected frequency for A.",
+      "answer": 60,
+      "tol": 0,
+      "display": "60",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "X ~ N(100, 15²). Find P(X > 120).",
+      "answer": 0.091211,
+      "tol": 2.1219725867872564e-05,
+      "display": "0.0912",
+      "hint": "3 s.f.",
+      "topic": "Statistics & probability"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = 5x³. Find f′(1).",
+      "answer": 15,
+      "tol": 0,
+      "display": "15",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "y = 2x² − 3x. Find dy/dx when x = 4.",
+      "answer": 13,
+      "tol": 0,
+      "display": "13",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = x⁴ − 2x. Find f′(2).",
+      "answer": 30,
+      "tol": 0,
+      "display": "30",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = 6x⁻¹. Find f′(2).",
+      "answer": -1.5,
+      "tol": 1e-09,
+      "display": "-1.5",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "Find the gradient of the tangent to y = x² + 1 at x = 3.",
+      "answer": 6,
+      "tol": 0,
+      "display": "6",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "The tangent to y = x² at x = 2 is y = mx + c. Find c.",
+      "answer": -4,
+      "tol": 0,
+      "display": "-4",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "Find the gradient of the normal to y = x³ at x = 1.",
+      "answer": -0.3333333333333333,
+      "tol": 0.0015,
+      "display": "-0.333",
+      "hint": "3 s.f. or a fraction",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = x² − 8x + 3 has a minimum point. Find its x-coordinate.",
+      "answer": 4,
+      "tol": 0,
+      "display": "4",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "Find ∫₁³ 3x² dx.",
+      "answer": 26,
+      "tol": 0,
+      "display": "26",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "Find ∫₀² (4x + 1) dx.",
+      "answer": 10,
+      "tol": 0,
+      "display": "10",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "Find the area between y = x² and the x-axis from x = 0 to x = 3.",
+      "answer": 9,
+      "tol": 0,
+      "display": "9",
+      "topic": "Calculus",
+      "unit": "units²"
+    },
+    {
+      "type": "num",
+      "q": "∫ 6x² dx = kx³ + C. Find k.",
+      "answer": 2,
+      "tol": 0,
+      "display": "2",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "f′(x) = 2x and f(1) = 5. Find f(3).",
+      "answer": 13,
+      "tol": 0,
+      "display": "13",
+      "topic": "Calculus"
+    },
+    {
+      "type": "mc",
+      "q": "At a local maximum of a smooth curve, f′(x) is…",
+      "choices": [
+        "zero",
+        "positive",
+        "negative",
+        "always undefined"
+      ],
+      "answer": 0,
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "Use the trapezoidal rule with h = 1 (3 trapezoids) to estimate ∫₀³ x² dx.",
+      "answer": 9.5,
+      "tol": 0,
+      "display": "9.5",
+      "topic": "Calculus"
+    },
+    {
+      "type": "num",
+      "q": "A ball's height is h(t) = 20t − 5t² metres. Find the time t (seconds) when the height is greatest.",
+      "answer": 2,
+      "tol": 0,
+      "display": "2",
+      "topic": "Calculus",
+      "unit": "s"
+    },
+    {
+      "type": "num",
+      "q": "Write 3.5 × 10² as an ordinary number.",
+      "answer": 350,
+      "tol": 0,
+      "display": "350",
+      "topic": "Number & algebra",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Round 4.678 to 1 decimal place.",
+      "answer": 4.7,
+      "tol": 1e-09,
+      "display": "4.7",
+      "topic": "Number & algebra",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Round 3846 to the nearest hundred.",
+      "answer": 3800,
+      "tol": 0,
+      "display": "3800",
+      "topic": "Number & algebra",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Arithmetic sequence 2, 5, 8, 11, … What is the common difference d?",
+      "answer": 3,
+      "tol": 0,
+      "display": "3",
+      "topic": "Number & algebra",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Geometric sequence 4, 12, 36, … What is the common ratio r?",
+      "answer": 3,
+      "tol": 0,
+      "display": "3",
+      "topic": "Number & algebra",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Find 15% of 80.",
+      "answer": 12,
+      "tol": 0,
+      "display": "12",
+      "topic": "Number & algebra",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Write 0.07 as a percentage.",
+      "answer": 7,
+      "tol": 0,
+      "display": "7",
+      "topic": "Number & algebra",
+      "unit": "%",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Find the next term: 1, 2, 4, 8, …",
+      "answer": 16,
+      "tol": 0,
+      "display": "16",
+      "topic": "Number & algebra",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = x + 5. Find f(2).",
+      "answer": 7,
+      "tol": 0,
+      "display": "7",
+      "topic": "Functions",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = 2x. Find f(6).",
+      "answer": 12,
+      "tol": 0,
+      "display": "12",
+      "topic": "Functions",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Write down the y-intercept of y = 3x + 4.",
+      "answer": 4,
+      "tol": 0,
+      "display": "4",
+      "topic": "Functions",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Write down the gradient of y = 5x − 2.",
+      "answer": 5,
+      "tol": 0,
+      "display": "5",
+      "topic": "Functions",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = x². Find f(−3).",
+      "answer": 9,
+      "tol": 0,
+      "display": "9",
+      "topic": "Functions",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Find the gradient of the line through (0, 0) and (2, 6).",
+      "answer": 3,
+      "tol": 0,
+      "display": "3",
+      "topic": "Functions",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Which of these graphs is a straight line?",
+      "choices": [
+        "y = 2x + 1",
+        "y = x²",
+        "y = 2ˣ",
+        "y = sin x"
+      ],
+      "answer": 0,
+      "topic": "Functions",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = 10 − x. Find f(4).",
+      "answer": 6,
+      "tol": 0,
+      "display": "6",
+      "topic": "Functions",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Find the area of a rectangle 7 cm by 4 cm.",
+      "answer": 28,
+      "tol": 0,
+      "display": "28",
+      "topic": "Geometry & trigonometry",
+      "unit": "cm²",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Find the perimeter of a square with side 9 cm.",
+      "answer": 36,
+      "tol": 0,
+      "display": "36",
+      "topic": "Geometry & trigonometry",
+      "unit": "cm",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "The angles in a triangle add up to how many degrees?",
+      "answer": 180,
+      "tol": 0,
+      "display": "180",
+      "topic": "Geometry & trigonometry",
+      "unit": "°",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Two angles of a triangle are 50° and 60°. Find the third angle.",
+      "answer": 70,
+      "tol": 0,
+      "display": "70",
+      "topic": "Geometry & trigonometry",
+      "unit": "°",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Find the volume of a cube with side 3 cm.",
+      "answer": 27,
+      "tol": 0,
+      "display": "27",
+      "topic": "Geometry & trigonometry",
+      "unit": "cm³",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Find the area of a triangle with base 10 cm and height 6 cm.",
+      "answer": 30,
+      "tol": 0,
+      "display": "30",
+      "topic": "Geometry & trigonometry",
+      "unit": "cm²",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "A right triangle has legs 3 and 4. Find the hypotenuse.",
+      "answer": 5,
+      "tol": 0,
+      "display": "5",
+      "topic": "Geometry & trigonometry",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Find the distance between (0, 0) and (0, 7).",
+      "answer": 7,
+      "tol": 0,
+      "display": "7",
+      "topic": "Geometry & trigonometry",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Find the mean of 2, 4, 6.",
+      "answer": 4,
+      "tol": 0,
+      "display": "4",
+      "topic": "Statistics & probability",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Find the median of 3, 7, 9.",
+      "answer": 7,
+      "tol": 0,
+      "display": "7",
+      "topic": "Statistics & probability",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Find the mode of 1, 3, 3, 5, 8.",
+      "answer": 3,
+      "tol": 0,
+      "display": "3",
+      "topic": "Statistics & probability",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "A fair coin is flipped. Find P(heads).",
+      "answer": 0.5,
+      "tol": 1e-09,
+      "display": "0.5",
+      "topic": "Statistics & probability",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "A fair six-sided die is rolled. Find P(rolling a 6).",
+      "answer": 0.16666666666666666,
+      "tol": 0.0013333333333333522,
+      "display": "0.167",
+      "hint": "a fraction or 3 s.f.",
+      "topic": "Statistics & probability",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "P(A) = 0.8. Find P(not A).",
+      "answer": 0.2,
+      "tol": 1e-09,
+      "display": "0.2",
+      "topic": "Statistics & probability",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Find the range of 3, 10, 6.",
+      "answer": 7,
+      "tol": 0,
+      "display": "7",
+      "topic": "Statistics & probability",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "A bag has 3 red and 7 blue marbles. One is picked at random. Find P(red).",
+      "answer": 0.3,
+      "tol": 1e-09,
+      "display": "0.3",
+      "topic": "Statistics & probability",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = x². Find f′(5).",
+      "answer": 10,
+      "tol": 0,
+      "display": "10",
+      "topic": "Calculus",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = 3x. Find f′(x).",
+      "answer": 3,
+      "tol": 0,
+      "display": "3",
+      "topic": "Calculus",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = 7. Find f′(x).",
+      "answer": 0,
+      "tol": 0,
+      "display": "0",
+      "topic": "Calculus",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "y = x³. Find dy/dx when x = 2.",
+      "answer": 12,
+      "tol": 0,
+      "display": "12",
+      "topic": "Calculus",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "f(x) = 4x². Find f′(1).",
+      "answer": 8,
+      "tol": 0,
+      "display": "8",
+      "topic": "Calculus",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "If f′(x) > 0 on an interval, the graph of f there is…",
+      "choices": [
+        "increasing",
+        "decreasing",
+        "flat",
+        "a straight vertical line"
+      ],
+      "answer": 0,
+      "topic": "Calculus",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Find ∫₀¹ 2x dx.",
+      "answer": 1,
+      "tol": 0,
+      "display": "1",
+      "topic": "Calculus",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "∫ 3 dx = kx + C. Find k.",
+      "answer": 3,
+      "tol": 0,
+      "display": "3",
+      "topic": "Calculus",
+      "level": "easy"
+    }
+  ]
+}

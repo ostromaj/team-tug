@@ -1,0 +1,51 @@
+{
+  "id": "my-bank-template",
+  "title": "Example: my own bank",
+  "subtitle": "Copy this file to make your own",
+  "questions": [
+    {
+      "type": "num",
+      "q": "What is 6 × 7?",
+      "answer": 42
+    },
+    {
+      "type": "num",
+      "q": "Find √2 to 3 significant figures.",
+      "answer": 1.41421356,
+      "tol": 0.005,
+      "display": "1.41",
+      "hint": "3 s.f."
+    },
+    {
+      "type": "num",
+      "q": "A rectangle is 4 cm by 2.5 cm. Find its area.",
+      "answer": 10,
+      "unit": "cm²"
+    },
+    {
+      "type": "mc",
+      "q": "Which of these is prime?",
+      "choices": [
+        "21",
+        "27",
+        "29",
+        "33"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "text",
+      "q": "Convert denary 10 to binary.",
+      "accept": [
+        "1010",
+        "00001010"
+      ]
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "code": "x = 3\nfor i in range(2):\n    x = x * 2\nprint(x)",
+      "answer": 12
+    }
+  ]
+}

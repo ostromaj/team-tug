@@ -1,0 +1,2332 @@
+{
+  "id": "ib-cs-sl-2027",
+  "title": "IB CS SL (2027)",
+  "subtitle": "Fundamentals, networks, databases, ML, Python",
+  "questions": [
+    {
+      "type": "num",
+      "q": "Convert binary 10110110 to denary.",
+      "answer": 182,
+      "tol": 0,
+      "display": "182",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "text",
+      "q": "Convert denary 45 to binary.",
+      "accept": [
+        "101101",
+        "0101101",
+        "00101101"
+      ],
+      "display": "101101",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "num",
+      "q": "Convert hexadecimal 2F to denary.",
+      "answer": 47,
+      "tol": 0,
+      "display": "47",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "text",
+      "q": "Convert denary 200 to hexadecimal.",
+      "accept": [
+        "C8",
+        "0xC8"
+      ],
+      "display": "C8",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "num",
+      "q": "How many different values can be stored in 8 bits?",
+      "answer": 256,
+      "tol": 0,
+      "display": "256",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "num",
+      "q": "What is the largest unsigned integer that fits in 6 bits?",
+      "answer": 63,
+      "tol": 0,
+      "display": "63",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "num",
+      "q": "An image is 100 × 50 pixels with 24-bit colour. What is its size in bytes (no compression)?",
+      "answer": 15000.0,
+      "tol": 0,
+      "display": "15000",
+      "unit": "bytes",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "num",
+      "q": "A AND B, where A = 1 and B = 0. Output?",
+      "answer": 0,
+      "tol": 0,
+      "display": "0",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "num",
+      "q": "NOT (A OR B), where A = 0 and B = 0. Output?",
+      "answer": 1,
+      "tol": 0,
+      "display": "1",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "num",
+      "q": "(A AND B) OR (NOT C), where A = 1, B = 0, C = 0. Output?",
+      "answer": 1,
+      "tol": 0,
+      "display": "1",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "num",
+      "q": "A XOR B, where A = 1 and B = 1. Output?",
+      "answer": 0,
+      "tol": 0,
+      "display": "0",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "mc",
+      "q": "Which part of the CPU performs arithmetic and logical operations?",
+      "choices": [
+        "ALU",
+        "Control unit",
+        "MAR",
+        "Cache"
+      ],
+      "answer": 0,
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "mc",
+      "q": "Which register holds the address of the next instruction to fetch?",
+      "choices": [
+        "Program counter (PC)",
+        "Memory data register (MDR)",
+        "Accumulator",
+        "Instruction register (IR)"
+      ],
+      "answer": 0,
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "mc",
+      "q": "Which memory loses its contents when the power is turned off?",
+      "choices": [
+        "RAM",
+        "ROM",
+        "SSD",
+        "Hard disk"
+      ],
+      "answer": 0,
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "mc",
+      "q": "Why does a CPU use cache memory?",
+      "choices": [
+        "Faster access to frequently used data",
+        "Permanent storage of files",
+        "To connect to the network",
+        "To cool the processor"
+      ],
+      "answer": 0,
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "mc",
+      "q": "Which is an example of LOSSY compression?",
+      "choices": [
+        "JPEG",
+        "ZIP",
+        "PNG",
+        "Run-length encoding"
+      ],
+      "answer": 0,
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "text",
+      "q": "Run-length encode: AAAABBBCC (count then letter).",
+      "accept": [
+        "4A3B2C"
+      ],
+      "display": "4A3B2C",
+      "hint": "like 2X1Y",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "mc",
+      "q": "Which protocol guarantees reliable, in-order delivery of data?",
+      "choices": [
+        "TCP",
+        "UDP",
+        "IP",
+        "HTTP"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "num",
+      "q": "How many bits are in an IPv4 address?",
+      "answer": 32,
+      "tol": 0,
+      "display": "32",
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "num",
+      "q": "How many bits are in an IPv6 address?",
+      "answer": 128,
+      "tol": 0,
+      "display": "128",
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "Which device forwards packets BETWEEN different networks?",
+      "choices": [
+        "Router",
+        "Switch",
+        "Hub",
+        "Repeater"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "What does DNS do?",
+      "choices": [
+        "Translates domain names to IP addresses",
+        "Encrypts web traffic",
+        "Assigns MAC addresses",
+        "Blocks malware"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "Encryption that uses a public key and a private key is called…",
+      "choices": [
+        "Asymmetric",
+        "Symmetric",
+        "Hashing",
+        "Caesar"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "Which topology connects every device to one central switch?",
+      "choices": [
+        "Star",
+        "Bus",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "num",
+      "q": "What does this query return?",
+      "answer": 3,
+      "tol": 0,
+      "display": "3",
+      "topic": "A3 Databases",
+      "code": "Students\nname | grade\nAna  | 7\nBen  | 5\nCai  | 6\nDev  | 4\nEli  | 6\n\nSELECT COUNT(*) FROM Students\nWHERE grade >= 6;"
+    },
+    {
+      "type": "mc",
+      "q": "A field that uniquely identifies each record is the…",
+      "choices": [
+        "Primary key",
+        "Foreign key",
+        "Index",
+        "Attribute"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "Which SQL clause sorts the results?",
+      "choices": [
+        "ORDER BY",
+        "GROUP BY",
+        "SORT",
+        "WHERE"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "A field in one table that refers to the primary key of another table is a…",
+      "choices": [
+        "Foreign key",
+        "Primary key",
+        "Composite key",
+        "Candidate value"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "Training a model on LABELLED examples is…",
+      "choices": [
+        "Supervised learning",
+        "Unsupervised learning",
+        "Reinforcement learning",
+        "Clustering"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "Grouping unlabelled data into similar groups (clustering) is…",
+      "choices": [
+        "Unsupervised learning",
+        "Supervised learning",
+        "Regression",
+        "Classification"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "In machine learning, the labelled examples used to teach a model are called the…",
+      "choices": [
+        "Training data",
+        "Metadata",
+        "Cache",
+        "Source code"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "Breaking a big problem into smaller, manageable parts is…",
+      "choices": [
+        "Decomposition",
+        "Abstraction",
+        "Pattern recognition",
+        "Iteration"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "mc",
+      "q": "Hiding unnecessary detail to focus on what matters is…",
+      "choices": [
+        "Abstraction",
+        "Decomposition",
+        "Recursion",
+        "Selection"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 20.0,
+      "tol": 0,
+      "display": "20",
+      "topic": "B2 Programming",
+      "code": "total = 0\nfor i in range(1, 5):\n    total += i * 2\nprint(total)"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 3.0,
+      "tol": 0,
+      "display": "3",
+      "topic": "B2 Programming",
+      "code": "x = 7\ny = 3\nprint(x // y + x % y)"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 16.0,
+      "tol": 0,
+      "display": "16",
+      "topic": "B2 Programming",
+      "code": "nums = [4, 9, 2, 7]\nprint(nums[1] + nums[-1])"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 3.0,
+      "tol": 0,
+      "display": "3",
+      "topic": "B2 Programming",
+      "code": "s = \"PYTHON\"\nprint(len(s[1:4]))"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 5.0,
+      "tol": 0,
+      "display": "5",
+      "topic": "B2 Programming",
+      "code": "n = 1\ncount = 0\nwhile n < 100:\n    n *= 3\n    count += 1\nprint(count)"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 17.0,
+      "tol": 0,
+      "display": "17",
+      "topic": "B2 Programming",
+      "code": "def f(a, b=2):\n    return a ** b\n\nprint(f(3) + f(2, 3))"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 4.0,
+      "tol": 0,
+      "display": "4",
+      "topic": "B2 Programming",
+      "code": "x = [1, 2, 3]\ny = x\ny.append(4)\nprint(len(x))"
+    },
+    {
+      "type": "mc",
+      "q": "What is printed?",
+      "choices": [
+        "False",
+        "True",
+        "Error",
+        "None"
+      ],
+      "answer": 0,
+      "code": "print(5 > 3 and 2 > 4)",
+      "topic": "B2 Programming"
+    },
+    {
+      "type": "mc",
+      "q": "What is printed?",
+      "choices": [
+        "TUGTUG",
+        "TUG TUG",
+        "tugtug",
+        "TUG2"
+      ],
+      "answer": 0,
+      "code": "word = \"tug\"\nprint(word.upper() * 2)",
+      "topic": "B2 Programming"
+    },
+    {
+      "type": "num",
+      "q": "Binary search on a sorted list of 1000 items: maximum number of items checked?",
+      "answer": 10,
+      "tol": 0,
+      "display": "10",
+      "topic": "B2 Programming"
+    },
+    {
+      "type": "mc",
+      "q": "[5, 1, 4, 2, 8] after ONE pass of bubble sort (ascending)?",
+      "choices": [
+        "[1, 4, 2, 5, 8]",
+        "[1, 2, 4, 5, 8]",
+        "[1, 5, 4, 2, 8]",
+        "[1, 4, 5, 2, 8]"
+      ],
+      "answer": 0,
+      "topic": "B2 Programming"
+    },
+    {
+      "type": "mc",
+      "q": "Time complexity of linear search?",
+      "choices": [
+        "O(n)",
+        "O(1)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": 0,
+      "topic": "B2 Programming"
+    },
+    {
+      "type": "mc",
+      "q": "Time complexity of binary search on a sorted list?",
+      "choices": [
+        "O(log n)",
+        "O(n)",
+        "O(1)",
+        "O(n²)"
+      ],
+      "answer": 0,
+      "topic": "B2 Programming"
+    },
+    {
+      "type": "mc",
+      "q": "Two nested loops, each running n times, usually give…",
+      "choices": [
+        "O(n²)",
+        "O(n)",
+        "O(2n)",
+        "O(log n)"
+      ],
+      "answer": 0,
+      "topic": "B2 Programming"
+    },
+    {
+      "type": "mc",
+      "q": "Keeping an object's data private and accessing it only through methods is…",
+      "choices": [
+        "Encapsulation",
+        "Inheritance",
+        "Polymorphism",
+        "Iteration"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "A class is to an object as…",
+      "choices": [
+        "a blueprint is to a house",
+        "a house is to a blueprint",
+        "a variable is to a loop",
+        "a method is to a field"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "The special method that runs automatically when a new object is created is the…",
+      "choices": [
+        "Constructor",
+        "Accessor (getter)",
+        "Mutator (setter)",
+        "Destructor"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "num",
+      "q": "Convert binary 11001010 to denary.",
+      "answer": 202,
+      "tol": 0,
+      "display": "202",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "text",
+      "q": "Convert hexadecimal 3A to 8-bit binary.",
+      "accept": [
+        "00111010",
+        "111010"
+      ],
+      "display": "00111010",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "mc",
+      "q": "Which logic gate outputs 1 only when BOTH inputs are 1?",
+      "choices": [
+        "AND",
+        "OR",
+        "XOR",
+        "NAND"
+      ],
+      "answer": 0,
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "num",
+      "q": "How many bits are in 3 bytes?",
+      "answer": 24,
+      "tol": 0,
+      "display": "24",
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "mc",
+      "q": "What is the main job of an operating system?",
+      "choices": [
+        "Managing hardware and software resources",
+        "Compiling Python programs",
+        "Storing websites",
+        "Encrypting the internet"
+      ],
+      "answer": 0,
+      "topic": "A1 Computer fundamentals"
+    },
+    {
+      "type": "mc",
+      "q": "What does a MAC address identify?",
+      "choices": [
+        "A device's network interface (hardware)",
+        "A website",
+        "A user account",
+        "A router's location"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "In the TCP/IP model, HTTP belongs to which layer?",
+      "choices": [
+        "Application",
+        "Transport",
+        "Internet",
+        "Link"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "num",
+      "q": "Which port number is standard for HTTPS?",
+      "answer": 443,
+      "tol": 0,
+      "display": "443",
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "What does a firewall do?",
+      "choices": [
+        "Filters network traffic using rules",
+        "Speeds up the CPU",
+        "Assigns IP addresses",
+        "Stores backups"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "Breaking data into small chunks that travel separately and are reassembled is…",
+      "choices": [
+        "Packet switching",
+        "Circuit switching",
+        "Multiplexing",
+        "Buffering"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "Which type of network covers a large geographic area?",
+      "choices": [
+        "WAN",
+        "LAN",
+        "PAN",
+        "Hub"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "What does DHCP do?",
+      "choices": [
+        "Automatically assigns IP addresses to devices",
+        "Translates domain names",
+        "Encrypts web traffic",
+        "Blocks malware"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "Which part of a packet tells routers where to send it?",
+      "choices": [
+        "The destination IP address in the header",
+        "The payload",
+        "The checksum",
+        "The source MAC only"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "num",
+      "q": "Each of the 4 numbers in an IPv4 address can be at most…",
+      "answer": 255,
+      "tol": 0,
+      "display": "255",
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "Which is NOT a valid IPv4 address?",
+      "choices": [
+        "256.10.0.1",
+        "192.168.1.1",
+        "10.0.0.255",
+        "8.8.8.8"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "Bandwidth is usually measured in…",
+      "choices": [
+        "bits per second",
+        "bytes of storage",
+        "CPU hertz",
+        "pixels"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "A video call cares more about speed than every packet arriving. Which protocol suits it?",
+      "choices": [
+        "UDP",
+        "TCP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "mc",
+      "q": "A VPN mainly provides…",
+      "choices": [
+        "An encrypted tunnel over a public network",
+        "A faster processor",
+        "More storage",
+        "A new IP version"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks"
+    },
+    {
+      "type": "num",
+      "q": "A 40-megabit file is sent over a 10 Mbps link. Find the minimum time in seconds.",
+      "answer": 4,
+      "tol": 0,
+      "display": "4",
+      "topic": "A2 Networks",
+      "unit": "s"
+    },
+    {
+      "type": "mc",
+      "q": "In a relational database, one row of a table is a…",
+      "choices": [
+        "Record",
+        "Field",
+        "Query",
+        "Key"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "In a relational database, one column of a table is a…",
+      "choices": [
+        "Field (attribute)",
+        "Record",
+        "Query",
+        "Table"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "Which SQL statement adds a new row?",
+      "choices": [
+        "INSERT INTO",
+        "UPDATE",
+        "ADD ROW",
+        "SELECT"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "Which SQL statement changes data that is already stored?",
+      "choices": [
+        "UPDATE",
+        "INSERT INTO",
+        "SELECT",
+        "CREATE TABLE"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "Which SQL clause filters which rows are returned?",
+      "choices": [
+        "WHERE",
+        "FROM",
+        "ORDER BY",
+        "AS"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "num",
+      "q": "What does this query return?",
+      "answer": 28,
+      "tol": 0,
+      "display": "28",
+      "topic": "A3 Databases",
+      "code": "Students\nname | grade\nAna  | 7\nBen  | 5\nCai  | 6\nDev  | 4\nEli  | 6\n\nSELECT SUM(grade) FROM Students;"
+    },
+    {
+      "type": "num",
+      "q": "What does this query return?",
+      "answer": 6,
+      "tol": 0,
+      "display": "6",
+      "topic": "A3 Databases",
+      "code": "Students\nname | grade\nAna  | 7\nBen  | 5\nCai  | 6\nDev  | 4\nEli  | 6\n\nSELECT MAX(grade) FROM Students\nWHERE name <> 'Ana';"
+    },
+    {
+      "type": "num",
+      "q": "What does this query return?",
+      "answer": 2,
+      "tol": 0,
+      "display": "2",
+      "topic": "A3 Databases",
+      "code": "Students\nname | grade\nAna  | 7\nBen  | 5\nCai  | 6\nDev  | 4\nEli  | 6\n\nSELECT COUNT(*) FROM Students\nWHERE grade = 6;"
+    },
+    {
+      "type": "num",
+      "q": "What does this query return?",
+      "answer": 5.6,
+      "tol": 1e-09,
+      "display": "5.6",
+      "topic": "A3 Databases",
+      "code": "Students\nname | grade\nAna  | 7\nBen  | 5\nCai  | 6\nDev  | 4\nEli  | 6\n\nSELECT AVG(grade) FROM Students;"
+    },
+    {
+      "type": "mc",
+      "q": "A table where every field holds a single, atomic value (no repeating groups) is in at least…",
+      "choices": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "0NF"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "Removing partial dependencies on a composite primary key takes a table to…",
+      "choices": [
+        "2NF",
+        "1NF",
+        "3NF",
+        "It is already normalized"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "Removing transitive dependencies (a non-key field depending on another non-key field) takes a table to…",
+      "choices": [
+        "3NF",
+        "1NF",
+        "2NF",
+        "4NF"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "Each student takes many courses, and each course has many students. This relationship is…",
+      "choices": [
+        "Many-to-many",
+        "One-to-one",
+        "One-to-many",
+        "Many-to-one only"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "A many-to-many relationship is usually built with…",
+      "choices": [
+        "A link (junction) table",
+        "One big table",
+        "No keys at all",
+        "Two primary keys in one field"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "Which SQL keyword combines rows from two tables using a matching column?",
+      "choices": [
+        "JOIN",
+        "MERGE",
+        "LINK",
+        "COMBINE"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "Why does every table need a primary key?",
+      "choices": [
+        "To uniquely identify each record",
+        "To sort the table",
+        "To encrypt the data",
+        "To make the table bigger"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "The same data stored in two places, which can get out of sync, is called…",
+      "choices": [
+        "Data redundancy",
+        "Data integrity",
+        "Validation",
+        "A query"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "Checking that an entered age is between 0 and 120 is a…",
+      "choices": [
+        "Range check",
+        "Length check",
+        "Type check",
+        "Presence check"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases"
+    },
+    {
+      "type": "mc",
+      "q": "Learning by trial and error using rewards and penalties is…",
+      "choices": [
+        "Reinforcement learning",
+        "Supervised learning",
+        "Unsupervised learning",
+        "Clustering"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "Predicting a number, like a house price, is a ___ task.",
+      "choices": [
+        "Regression",
+        "Classification",
+        "Clustering",
+        "Compression"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "Predicting a category, like spam or not spam, is a ___ task.",
+      "choices": [
+        "Classification",
+        "Regression",
+        "Clustering",
+        "Sorting"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "A model scores 99% on its training data but only 60% on new data. This is…",
+      "choices": [
+        "Overfitting",
+        "Underfitting",
+        "A perfect fit",
+        "Clustering"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "Data kept aside to check a model AFTER training is the…",
+      "choices": [
+        "Test data",
+        "Training data",
+        "Metadata",
+        "Label data"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "k-means is an example of…",
+      "choices": [
+        "Clustering (unsupervised learning)",
+        "Classification (supervised learning)",
+        "Reinforcement learning",
+        "Linear regression"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "num",
+      "q": "k-means with k = 4 sorts the data into how many clusters?",
+      "answer": 4,
+      "tol": 0,
+      "display": "4",
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "In a neural network, the adjustable numbers on the connections are called…",
+      "choices": [
+        "Weights",
+        "Pixels",
+        "Labels",
+        "Epochs"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "One complete pass through all the training data is called an…",
+      "choices": [
+        "Epoch",
+        "Layer",
+        "Label",
+        "Feature"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "The input variables a model learns from (e.g. size, age) are called…",
+      "choices": [
+        "Features",
+        "Labels",
+        "Outputs",
+        "Clusters"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "A face model trained mostly on photos of one group works worse on others. This is caused by…",
+      "choices": [
+        "Bias in the training data",
+        "Too many epochs",
+        "Too much storage",
+        "A slow internet connection"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "Why clean data before training a model?",
+      "choices": [
+        "Errors and duplicates would mislead the model",
+        "It makes the model run on any computer",
+        "It removes the need for test data",
+        "Models can't read numbers"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "num",
+      "q": "A spam filter is tested on 100 emails and gets 92 right. What is its accuracy, in %?",
+      "answer": 92,
+      "tol": 0,
+      "display": "92",
+      "topic": "A4 Machine learning",
+      "unit": "%"
+    },
+    {
+      "type": "mc",
+      "q": "In simple linear regression, the model learns…",
+      "choices": [
+        "A line of best fit",
+        "A set of clusters",
+        "A decision for every pixel",
+        "A password"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "Which task is UNSUPERVISED?",
+      "choices": [
+        "Grouping customers by buying habits when no labels exist",
+        "Predicting price from labelled sales",
+        "Learning cat vs dog from labelled photos",
+        "Predicting a test score from past labelled results"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "An AI trained on huge amounts of text to predict the next word is a…",
+      "choices": [
+        "Large language model",
+        "Expert system",
+        "Database",
+        "Compiler"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "An 80/20 split of a dataset usually means…",
+      "choices": [
+        "80% for training, 20% for testing",
+        "80% testing, 20% training",
+        "80 features and 20 labels",
+        "80 epochs and 20 layers"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "What is a key ethical concern about using machine learning to screen job applicants?",
+      "choices": [
+        "It can repeat unfair bias in past hiring data",
+        "It reads résumés too slowly",
+        "It cannot handle text",
+        "It always picks at random"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning"
+    },
+    {
+      "type": "mc",
+      "q": "Noticing that several problems can be solved in the same way is…",
+      "choices": [
+        "Pattern recognition",
+        "Decomposition",
+        "Abstraction",
+        "Iteration"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "mc",
+      "q": "A finite, step-by-step set of instructions that solves a problem is an…",
+      "choices": [
+        "Algorithm",
+        "Abstraction",
+        "Variable",
+        "Interface"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "mc",
+      "q": "In a flowchart, a diamond shape shows…",
+      "choices": [
+        "A decision",
+        "A process",
+        "Start or end",
+        "Input or output"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "mc",
+      "q": "In a flowchart, a parallelogram shows…",
+      "choices": [
+        "Input or output",
+        "A decision",
+        "A process",
+        "Start or end"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "mc",
+      "q": "In a flowchart, a rounded rectangle (terminator) shows…",
+      "choices": [
+        "Start or end",
+        "A decision",
+        "Input or output",
+        "A loop"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "mc",
+      "q": "Repeating a set of steps is…",
+      "choices": [
+        "Iteration",
+        "Selection",
+        "Sequence",
+        "Abstraction"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "mc",
+      "q": "Choosing between paths with IF … ELSE is…",
+      "choices": [
+        "Selection",
+        "Iteration",
+        "Sequence",
+        "Decomposition"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "num",
+      "q": "Trace this pseudocode. What is the final value of X?",
+      "answer": 256,
+      "tol": 0,
+      "display": "256",
+      "topic": "B1 Computational thinking",
+      "code": "X ← 2\nloop 3 times\n    X ← X * X\nend loop"
+    },
+    {
+      "type": "num",
+      "q": "Trace this pseudocode. What is the final value of A?",
+      "answer": 3,
+      "tol": 0,
+      "display": "3",
+      "topic": "B1 Computational thinking",
+      "code": "A ← 5\nB ← 3\nA ← A + B\nB ← A − B\nA ← A − B"
+    },
+    {
+      "type": "num",
+      "q": "Trace this pseudocode. What is output?",
+      "answer": 3,
+      "tol": 0,
+      "display": "3",
+      "topic": "B1 Computational thinking",
+      "code": "COUNT ← 0\nloop I from 1 to 10\n    if I mod 3 = 0 then\n        COUNT ← COUNT + 1\n    end if\nend loop\noutput COUNT"
+    },
+    {
+      "type": "num",
+      "q": "Trace this pseudocode. What is output?",
+      "answer": 15,
+      "tol": 0,
+      "display": "15",
+      "topic": "B1 Computational thinking",
+      "code": "TOTAL ← 0\nloop I from 1 to 5\n    TOTAL ← TOTAL + I\nend loop\noutput TOTAL"
+    },
+    {
+      "type": "mc",
+      "q": "A table used to record each variable's value step by step through an algorithm is a…",
+      "choices": [
+        "Trace table",
+        "Truth table",
+        "Hash table",
+        "Look-up table"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "mc",
+      "q": "Testing with values right at the edges of the allowed range (like 0 and 100) is…",
+      "choices": [
+        "Boundary testing",
+        "Normal testing",
+        "Erroneous testing",
+        "Random testing"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "mc",
+      "q": "Typing 'hello' into a box that expects an age is ___ test data.",
+      "choices": [
+        "Erroneous (invalid)",
+        "Normal",
+        "Boundary",
+        "Extreme valid"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "num",
+      "q": "Linear search for 7 in [3, 9, 7, 1, 7]. How many items are checked to find it (including the match)?",
+      "answer": 3,
+      "tol": 0,
+      "display": "3",
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "mc",
+      "q": "Before a binary search can be used, the list must be…",
+      "choices": [
+        "Sorted",
+        "Empty",
+        "Shuffled",
+        "Unique strings only"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "num",
+      "q": "Binary search on a sorted list of 64 items: what is the maximum number of items checked?",
+      "answer": 7,
+      "tol": 0,
+      "display": "7",
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "mc",
+      "q": "A subway map keeps the stations and connections but drops real distances. This is…",
+      "choices": [
+        "Abstraction",
+        "Decomposition",
+        "Iteration",
+        "Encryption"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "mc",
+      "q": "Writing an algorithm in structured English that isn't a real programming language is…",
+      "choices": [
+        "Pseudocode",
+        "Machine code",
+        "Assembly",
+        "A flowchart"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "mc",
+      "q": "Splitting 'plan a school trip' into booking, permission forms and budget is…",
+      "choices": [
+        "Decomposition",
+        "Abstraction",
+        "Pattern recognition",
+        "Selection"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 2.0,
+      "tol": 0,
+      "display": "2",
+      "topic": "B2 Programming",
+      "code": "print(17 % 5)"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 3.0,
+      "tol": 0,
+      "display": "3",
+      "topic": "B2 Programming",
+      "code": "s = \"banana\"\nprint(s.count(\"a\"))"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 9.0,
+      "tol": 0,
+      "display": "9",
+      "topic": "B2 Programming",
+      "code": "nums = [3, 8, 1]\nnums.sort()\nprint(nums[0] + nums[2])"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 2.0,
+      "tol": 0,
+      "display": "2",
+      "topic": "B2 Programming",
+      "code": "x = 10\nif x > 5 and x < 8:\n    print(1)\nelif x == 10:\n    print(2)\nelse:\n    print(3)"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 30.0,
+      "tol": 0,
+      "display": "30",
+      "topic": "B2 Programming",
+      "code": "t = 0\nfor c in \"abc\":\n    t += 1\nprint(t * 10)"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 12.0,
+      "tol": 0,
+      "display": "12",
+      "topic": "B2 Programming",
+      "code": "def double(n):\n    return n * 2\n\nprint(double(double(3)))"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 9.0,
+      "tol": 0,
+      "display": "9",
+      "topic": "B2 Programming",
+      "code": "a = [1, 2, 3, 4, 5]\nprint(sum(a[1:4]))"
+    },
+    {
+      "type": "mc",
+      "q": "Which data type stores True or False?",
+      "choices": [
+        "Boolean",
+        "Integer",
+        "String",
+        "Float"
+      ],
+      "answer": 0,
+      "topic": "B2 Programming"
+    },
+    {
+      "type": "mc",
+      "q": "A subclass receiving the attributes and methods of its parent class is…",
+      "choices": [
+        "Inheritance",
+        "Encapsulation",
+        "Polymorphism",
+        "Instantiation"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "The same method name behaving differently in different subclasses is…",
+      "choices": [
+        "Polymorphism",
+        "Inheritance",
+        "Encapsulation",
+        "Aggregation"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "A Car object that HAS an Engine object is an example of…",
+      "choices": [
+        "Composition / aggregation (has-a)",
+        "Inheritance (is-a)",
+        "Polymorphism",
+        "Encapsulation"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "In a UML class diagram, a minus sign (−) before an attribute means it is…",
+      "choices": [
+        "Private",
+        "Public",
+        "Static",
+        "Inherited"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "In a UML class diagram, a plus sign (+) before a method means it is…",
+      "choices": [
+        "Public",
+        "Private",
+        "Protected",
+        "Abstract"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "A method that returns the value of a private attribute is a…",
+      "choices": [
+        "Getter (accessor)",
+        "Setter (mutator)",
+        "Constructor",
+        "Subclass"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "A method that changes the value of a private attribute is a…",
+      "choices": [
+        "Setter (mutator)",
+        "Getter (accessor)",
+        "Constructor",
+        "Superclass"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "Creating an object from a class is called…",
+      "choices": [
+        "Instantiation",
+        "Inheritance",
+        "Abstraction",
+        "Compilation"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 7.0,
+      "tol": 0,
+      "display": "7",
+      "topic": "B3 Object-oriented programming",
+      "code": "class Counter:\n    def __init__(self):\n        self.count = 0\n    def add(self, n):\n        self.count += n\n\nc = Counter()\nc.add(3)\nc.add(4)\nprint(c.count)"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 14.0,
+      "tol": 0,
+      "display": "14",
+      "topic": "B3 Object-oriented programming",
+      "code": "class Box:\n    def __init__(self, size):\n        self.size = size\n\na = Box(2)\nb = Box(5)\na.size = 9\nprint(a.size + b.size)"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 8.0,
+      "tol": 0,
+      "display": "8",
+      "topic": "B3 Object-oriented programming",
+      "code": "class Animal:\n    def legs(self):\n        return 4\n\nclass Bird(Animal):\n    def legs(self):\n        return 2\n\npets = [Animal(), Bird(), Bird()]\nprint(sum(p.legs() for p in pets))"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 2.0,
+      "tol": 0,
+      "display": "2",
+      "topic": "B3 Object-oriented programming",
+      "code": "class Dog:\n    def __init__(self, name):\n        self.name = name\n\ndogs = [Dog(\"Rex\"), Dog(\"Bo\"), Dog(\"Max\")]\nprint(len(dogs[1].name))"
+    },
+    {
+      "type": "mc",
+      "q": "In Python, which word refers to the current object inside a method?",
+      "choices": [
+        "self",
+        "this",
+        "me",
+        "obj"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "Which is an advantage of encapsulation?",
+      "choices": [
+        "Data can only be changed in controlled ways",
+        "Programs need no classes",
+        "Every attribute becomes public",
+        "Objects can't have methods"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "class Student(Person): … Here, Person is the…",
+      "choices": [
+        "Superclass (parent)",
+        "Subclass (child)",
+        "Object",
+        "Method"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "An object's attributes store its…",
+      "choices": [
+        "State (data)",
+        "Behaviour",
+        "Class name",
+        "Parent class"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "An object's methods define its…",
+      "choices": [
+        "Behaviour",
+        "State",
+        "Memory address",
+        "Class name"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "A UML class box is split into three parts. Top to bottom they show…",
+      "choices": [
+        "Class name, attributes, methods",
+        "Methods, attributes, class name",
+        "Attributes, class name, methods",
+        "Objects, classes, methods"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "mc",
+      "q": "class Bird(Animal). Which statement is TRUE?",
+      "choices": [
+        "A Bird is an Animal",
+        "An Animal is always a Bird",
+        "Bird cannot add new methods",
+        "Animal automatically gets Bird's methods"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming"
+    },
+    {
+      "type": "num",
+      "q": "Convert binary 101 to denary.",
+      "answer": 5,
+      "tol": 0,
+      "display": "5",
+      "topic": "A1 Computer fundamentals",
+      "level": "easy"
+    },
+    {
+      "type": "text",
+      "q": "Convert denary 8 to binary.",
+      "accept": [
+        "1000",
+        "00001000"
+      ],
+      "display": "1000",
+      "topic": "A1 Computer fundamentals",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "How many bits are in 1 byte?",
+      "answer": 8,
+      "tol": 0,
+      "display": "8",
+      "topic": "A1 Computer fundamentals",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "1 AND 1 = ?",
+      "answer": 1,
+      "tol": 0,
+      "display": "1",
+      "topic": "A1 Computer fundamentals",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "1 OR 0 = ?",
+      "answer": 1,
+      "tol": 0,
+      "display": "1",
+      "topic": "A1 Computer fundamentals",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "NOT 1 = ?",
+      "answer": 0,
+      "tol": 0,
+      "display": "0",
+      "topic": "A1 Computer fundamentals",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Which of these is an INPUT device?",
+      "choices": [
+        "Keyboard",
+        "Monitor",
+        "Speaker",
+        "Printer"
+      ],
+      "answer": 0,
+      "topic": "A1 Computer fundamentals",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "CPU stands for…",
+      "choices": [
+        "Central Processing Unit",
+        "Computer Power Unit",
+        "Central Program Utility",
+        "Core Printing Unit"
+      ],
+      "answer": 0,
+      "topic": "A1 Computer fundamentals",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "LAN stands for…",
+      "choices": [
+        "Local Area Network",
+        "Large Access Network",
+        "Linked Area Node",
+        "Long-Antenna Network"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Which device connects a home network to the internet?",
+      "choices": [
+        "Router",
+        "Mouse",
+        "Monitor",
+        "Printer"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Wi-Fi is an example of a ___ connection.",
+      "choices": [
+        "Wireless",
+        "Wired",
+        "Fibre-optic cable",
+        "USB"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "What is a URL?",
+      "choices": [
+        "A web address, like https://example.com",
+        "A type of virus",
+        "A computer's memory",
+        "A spreadsheet formula"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "HTTPS is safer than HTTP because it is…",
+      "choices": [
+        "Encrypted",
+        "Faster",
+        "Shorter",
+        "Older"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Which of these is an IPv4 address?",
+      "choices": [
+        "192.168.0.1",
+        "www.example.com",
+        "00:1A:2B:3C:4D:5E",
+        "C:\\Users"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Which protocol is used to SEND email?",
+      "choices": [
+        "SMTP",
+        "FTP",
+        "DNS",
+        "DHCP"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "A password like 'password123' is…",
+      "choices": [
+        "Weak and easy to guess",
+        "Strong",
+        "Encrypted by default",
+        "Impossible to guess"
+      ],
+      "answer": 0,
+      "topic": "A2 Networks",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "A relational database stores data in…",
+      "choices": [
+        "Tables",
+        "Paragraphs",
+        "Images",
+        "Folders only"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Which SQL keyword chooses which columns to show?",
+      "choices": [
+        "SELECT",
+        "FROM",
+        "WHERE",
+        "TABLE"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Which SQL keyword says which table to use?",
+      "choices": [
+        "FROM",
+        "SELECT",
+        "WHERE",
+        "INTO"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "What does this query return?",
+      "answer": 5,
+      "tol": 0,
+      "display": "5",
+      "topic": "A3 Databases",
+      "code": "Students\nname | grade\nAna  | 7\nBen  | 5\nCai  | 6\nDev  | 4\nEli  | 6\n\nSELECT COUNT(*) FROM Students;",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "SQL stands for…",
+      "choices": [
+        "Structured Query Language",
+        "Simple Question List",
+        "Stored Quick Lookup",
+        "System Query Link"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "ORDER BY grade DESC sorts the grades from…",
+      "choices": [
+        "Highest to lowest",
+        "Lowest to highest",
+        "A to Z",
+        "Newest to oldest"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases",
+      "level": "easy"
+    },
+    {
+      "type": "text",
+      "q": "What does this query return?",
+      "accept": [
+        "Ana"
+      ],
+      "display": "Ana",
+      "topic": "A3 Databases",
+      "code": "Students\nname | grade\nAna  | 7\nBen  | 5\nCai  | 6\nDev  | 4\nEli  | 6\n\nSELECT name FROM Students\nWHERE grade = 7;",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Which data type fits a phone number like 0123 456 789 (keeps the leading 0)?",
+      "choices": [
+        "Text (string)",
+        "Integer",
+        "Boolean",
+        "Float"
+      ],
+      "answer": 0,
+      "topic": "A3 Databases",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "AI stands for…",
+      "choices": [
+        "Artificial Intelligence",
+        "Automatic Internet",
+        "Advanced Input",
+        "Applied Information"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "ML stands for…",
+      "choices": [
+        "Machine Learning",
+        "Memory Loading",
+        "Main Logic",
+        "Multi-Layer"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Showing a model lots of photos labelled 'cat' or 'dog' is…",
+      "choices": [
+        "Supervised learning",
+        "Unsupervised learning",
+        "Reinforcement learning",
+        "Not learning"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "The correct answer attached to a training example is its…",
+      "choices": [
+        "Label",
+        "Weight",
+        "Epoch",
+        "Pixel"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Which is an everyday use of machine learning?",
+      "choices": [
+        "Recommending videos you might like",
+        "Flipping a light switch",
+        "Adding 2 + 2 on a calculator",
+        "Printing a page"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "More good-quality training data usually makes a model…",
+      "choices": [
+        "More accurate",
+        "Less accurate",
+        "Unable to run",
+        "Smaller"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "A model has to be ___ before it can make useful predictions.",
+      "choices": [
+        "Trained",
+        "Printed",
+        "Deleted",
+        "Unplugged"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Is a machine learning model ever guaranteed to be 100% right?",
+      "choices": [
+        "No",
+        "Yes, always",
+        "Yes, if it is new",
+        "Yes, if it is fast"
+      ],
+      "answer": 0,
+      "topic": "A4 Machine learning",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Breaking a big problem into smaller parts is…",
+      "choices": [
+        "Decomposition",
+        "Abstraction",
+        "Iteration",
+        "Selection"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Doing instructions one after another, in order, is…",
+      "choices": [
+        "Sequence",
+        "Selection",
+        "Iteration",
+        "Abstraction"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Trace this pseudocode. What is output?",
+      "answer": 7,
+      "tol": 0,
+      "display": "7",
+      "topic": "B1 Computational thinking",
+      "code": "X ← 4\nX ← X + 3\noutput X",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "Trace this pseudocode. What is output?",
+      "answer": 12,
+      "tol": 0,
+      "display": "12",
+      "topic": "B1 Computational thinking",
+      "code": "X ← 10\nX ← X − 4\nX ← X * 2\noutput X",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "A recipe is a real-life example of an…",
+      "choices": [
+        "Algorithm",
+        "Abstraction",
+        "Error",
+        "Variable"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Which flowchart symbol is used for Start and End?",
+      "choices": [
+        "Rounded rectangle (terminator)",
+        "Diamond",
+        "Parallelogram",
+        "Rectangle"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "How many times does the body of this loop run?",
+      "answer": 5,
+      "tol": 0,
+      "display": "5",
+      "topic": "B1 Computational thinking",
+      "code": "loop I from 1 to 5\n    output I\nend loop",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "IF AGE ≥ 16 THEN output \"Can drive\" … this is an example of…",
+      "choices": [
+        "Selection",
+        "Iteration",
+        "Sequence",
+        "Decomposition"
+      ],
+      "answer": 0,
+      "topic": "B1 Computational thinking",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 5.0,
+      "tol": 0,
+      "display": "5",
+      "topic": "B2 Programming",
+      "code": "print(2 + 3)",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 8.0,
+      "tol": 0,
+      "display": "8",
+      "topic": "B2 Programming",
+      "code": "x = 4\nprint(x * 2)",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 3.0,
+      "tol": 0,
+      "display": "3",
+      "topic": "B2 Programming",
+      "code": "print(len(\"cat\"))",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 3.0,
+      "tol": 0,
+      "display": "3",
+      "topic": "B2 Programming",
+      "code": "print(10 // 3)",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 5.0,
+      "tol": 0,
+      "display": "5",
+      "topic": "B2 Programming",
+      "code": "nums = [5, 6, 7]\nprint(nums[0])",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 4.0,
+      "tol": 0,
+      "display": "4",
+      "topic": "B2 Programming",
+      "code": "count = 0\nfor i in range(4):\n    count += 1\nprint(count)",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Which symbol starts a comment in Python?",
+      "choices": [
+        "#",
+        "//",
+        "<!--",
+        "**"
+      ],
+      "answer": 0,
+      "topic": "B2 Programming",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Which of these is a string in Python?",
+      "choices": [
+        "\"hello\"",
+        "42",
+        "3.14",
+        "True"
+      ],
+      "answer": 0,
+      "topic": "B2 Programming",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "A blueprint for making objects is a…",
+      "choices": [
+        "Class",
+        "Method",
+        "Loop",
+        "Variable"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "An object made from a class is called an…",
+      "choices": [
+        "Instance",
+        "Attribute",
+        "Algorithm",
+        "Interface"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "OOP stands for…",
+      "choices": [
+        "Object-Oriented Programming",
+        "Online Output Process",
+        "Ordered Operation Plan",
+        "Open Object Protocol"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "A variable that belongs to an object is an…",
+      "choices": [
+        "Attribute",
+        "Method",
+        "Class",
+        "Loop"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "A function that belongs to an object is a…",
+      "choices": [
+        "Method",
+        "Attribute",
+        "Class",
+        "Variable"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 9.0,
+      "tol": 0,
+      "display": "9",
+      "topic": "B3 Object-oriented programming",
+      "code": "class Cat:\n    def __init__(self):\n        self.lives = 9\n\nc = Cat()\nprint(c.lives)",
+      "level": "easy"
+    },
+    {
+      "type": "num",
+      "q": "What is printed?",
+      "answer": 4.0,
+      "tol": 0,
+      "display": "4",
+      "topic": "B3 Object-oriented programming",
+      "code": "class Pen:\n    def __init__(self, ink):\n        self.ink = ink\n\np = Pen(3)\nprint(p.ink + 1)",
+      "level": "easy"
+    },
+    {
+      "type": "mc",
+      "q": "Dog is a subclass of Animal. Dog is the…",
+      "choices": [
+        "Child class",
+        "Parent class",
+        "Object",
+        "Attribute"
+      ],
+      "answer": 0,
+      "topic": "B3 Object-oriented programming",
+      "level": "easy"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "banks": [
+    {
+      "id": "ib-math-ai-sl",
+      "title": "IB Math AI SL",
+      "class": "Math"
+    },
+    {
+      "id": "ib-cs-sl-2027",
+      "title": "IB CS SL (2027)",
+      "class": "CS"
+    },
+    {
+      "id": "my-bank-template",
+      "title": "Example: my own bank",
+      "class": "Custom"
+    }
+  ]
+}

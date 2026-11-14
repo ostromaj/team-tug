@@ -1,0 +1,39 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "rooms": {
+      "$code": {
+        ".read": "$code.matches(/^[BCDFGHJKLMNPQRSTVWXZ]{4}$/)",
+        ".write": "$code.matches(/^[BCDFGHJKLMNPQRSTVWXZ]{4}$/)"
+      }
+    },
+    "teamtug": {
+      "rooms": {
+        "$code": {
+          ".read": "$code.matches(/^[BCDFGHJKLMNPQRSTVWXZ]{4}$/)",
+          ".write": "$code.matches(/^[BCDFGHJKLMNPQRSTVWXZ]{4}$/)"
+        }
+      }
+    },
+    "leaderboards": {
+      ".read": "auth != null && auth.token.email === 'ADMIN_EMAIL' && auth.token.email_verified === true",
+      ".write": "auth != null && auth.token.email === 'ADMIN_EMAIL' && auth.token.email_verified === true",
+      "$game": {
+        "$board": {
+          ".read": "$game.matches(/^(biscuit|echoes|onemorerun)$/) && $board.matches(/^(all|d[0-9]{8})$/)",
+          ".indexOn": [
+            "s"
+          ],
+          "$device": {
+            ".write": "$game.matches(/^(biscuit|echoes|onemorerun)$/) && $board.matches(/^(all|d[0-9]{8})$/) && $device.matches(/^[a-z0-9]{12}$/) && newData.exists() && (!data.exists() || newData.child('s').val() >= data.child('s').val())",
+            ".validate": "newData.hasChildren(['n', 's', 't']) && newData.child('n').isString() && newData.child('n').val().length >= 2 && newData.child('n').val().length <= 12 && newData.child('s').isNumber() && newData.child('s').val() > 0 && newData.child('s').val() <= 100000 && ($game != 'biscuit' || newData.child('s').val() <= 600) && ($game != 'echoes' || newData.child('s').val() <= 5000) && newData.child('t').isNumber()",
+            "$field": {
+              ".validate": "$field == 'n' || $field == 's' || $field == 't'"
+            }
+          }
+        }
+      }
+    }
+  }
+}
